@@ -12,7 +12,7 @@ st.markdown(("""
 footer {visibility: hidden;}
 </style>
 """),unsafe_allow_html=True)
-locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 # Carga los datos desde el archivo CSV
 data = pd.read_csv("Data.csv", delimiter=";")
